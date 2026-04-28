@@ -55,3 +55,25 @@ int main()
 
     cout<<"Minimum cost = "<<sum;
 }
+
+/*Sample Input (Use in Practical Exam)
+
+Example:
+
+Enter vertices and edges:
+4 5
+
+Enter edges (u v w):
+
+0 1 10
+0 2 6
+0 3 5
+1 3 15
+2 3 4
+Expected Output
+Edges in MST:
+
+2 - 3
+0 - 3
+0 - 1
+Minimum cost = 19*/

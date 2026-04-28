@@ -50,3 +50,33 @@ int main()
     for(i=0;i<n;i++)
         cout<<source<<" -> "<<i<<" = "<<dist[i]<<endl;
 }
+
+
+/*
+Sample Input (Use in Practical Exam)
+
+Example:
+
+Enter number of vertices:
+4
+
+Enter cost matrix:
+
+0 2 999 6
+2 0 3 8
+999 3 0 1
+6 8 1 0
+
+Enter source node:
+0
+
+NOTE:
+
+999 = no connection (infinity)
+Expected Output
+Shortest distances:
+
+0 -> 0 = 0
+0 -> 1 = 2
+0 -> 2 = 5
+0 -> 3 = 6*/

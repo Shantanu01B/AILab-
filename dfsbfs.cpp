@@ -64,3 +64,20 @@ int main()
     cout<<"\nBFS Traversal: ";
     bfs(0);
 }
+
+/*
+Sample Input (Use in Practical)
+
+Example:
+
+Enter number of edges: 5
+
+Enter edges:
+0 1
+0 2
+1 3
+1 4
+2 5
+Expected Output
+DFS Traversal: 0 1 3 4 2 5
+BFS Traversal: 0 1 2 3 4 5*/

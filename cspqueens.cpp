@@ -40,3 +40,13 @@ int main()
 
     queen(1);
 }
+
+/*Sample Input
+
+Example:
+
+Enter number of queens:
+4
+Expected Output
+2 4 1 3
+3 1 4 2*/
